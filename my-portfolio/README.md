@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Amruth Sai Manchukonda - Portfolio  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio! 🚀 This project showcases my experience, skills, and projects as a **Full-Stack Developer** with expertise in **React.js, Python FastAPI, and AWS**.  
 
-## Available Scripts
+## 🌟 About Me  
+I am a **Software Engineer** passionate about building scalable and efficient web applications. Currently, I am working at **Invesco**, where I contribute to improving vendor management systems, optimizing database queries, and developing new features that enhance user engagement.  
 
-In the project directory, you can run:
+## 💼 Experience  
 
-### `npm start`
+### **Invesco | Software Engineer (June 2023 – Present)**  
+- Developed applications that improved vendor management, reducing business disruptions and boosting efficiency, saving ~$100K.  
+- Led a cross-functional team in implementing a new feature using **React and Redux**, increasing user engagement by **20%**.  
+- Optimized **MySQL** database queries, reducing page load times by **15%**.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **Outplay | Software Engineer Intern (Jan 2023 – June 2023)**  
+- Developed and maintained **AngularJS** and **.NET Web API** applications.  
+- Organized and tracked bug fixes while incorporating feature requests to enhance productivity.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Projects  
 
-### `npm test`
+### **Vendor Next | React.js, FastAPI, ServiceNow, AWS Textract, Oracle DB**  
+- Developed **Vendor Next**, an Invesco portal that streamlined vendor management, reducing disruptions and improving efficiency (~$100K saved in Q1).  
+- Designed a **scalable REST API** using **Python FastAPI**, achieving a **40% improvement in data retrieval speed**.  
+- Integrated **AWS Textract** for automated document processing, increasing data extraction accuracy by **30%**.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Document Tracking | AngularJS, ASP.NET Web APIs, PostgreSQL**  
+- Built a document tracking system that improved document retrieval and management.  
+- Deployed a scalable **ASP.NET Web API**, leading to a **20% increase in data retrieval speed**.  
 
-### `npm run build`
+## 🛠️ Technical Skills  
+- **Languages:** JavaScript (ES6), Python, C, Java  
+- **Frontend:** React.js, AngularJS, Bootstrap  
+- **Backend:** FastAPI, Flask, ASP.NET, Node.js, Spring Boot  
+- **Database:** MySQL, PostgreSQL, Oracle DB  
+- **Tools & DevOps:** Docker, Git, Postman, SwaggerUI  
+- **Concepts:** API Development, Cloud Computing, Database Normalization, Agile Methodology  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎖️ Achievements  
+- **Winner of the Invesco Hackathon** - Developed innovative solutions for business challenges.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📫 Contact  
+📧 Email: [amruthsaimanchu@gmail.com](mailto:amruthsaimanchu@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/amruth-sai-5245a0203](https://www.linkedin.com/in/amruth-sai-5245a0203)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🚀 How to Run This Project  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-username/portfolio.git
