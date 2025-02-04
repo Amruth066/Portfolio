@@ -1,7 +1,17 @@
-$primary-color:#ffd700;
+// Change primary color to a dark green (Spotify-like)
+$primary-color: #1DB954; // Spotify green color
 
+// Define dark background color and text color for a sleek, professional look
+$background-color: #191414; // Dark background, like Spotify's background
+$text-color: #B3B3B3; // Light grey text for contrast
+$highlight-color: #1DB954; // Green color for highlights and accents
+$button-background: #333; // Dark button background
+
+// Import external libraries
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
+
+// Font faces (no changes here)
 @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
@@ -15,11 +25,35 @@ $primary-color:#ffd700;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+// Apply the font family to form elements
 input,
-textarea{
+textarea {
   font-family: 'Helvetica Neue';
 }
-.loader-active{
+
+// Update the color scheme for form elements and buttons
+input,
+textarea {
+  background-color: #333; // Dark input background
+  color: #B3B3B3; // Light text on dark background
+  border: 1px solid #444; // Subtle border
+}
+
+button {
+  background-color: $button-background; // Button background
+  color: #B3B3B3; // Light text
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $highlight-color; // Highlight on hover
+    color: #fff; // White text on hover
+  }
+}
+
+// Loader styling (for loader animations)
+.loader-active {
   display: block;
   position: absolute;
   left: 0;
@@ -31,4 +65,19 @@ textarea{
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+}
+
+// Global background and text color
+body {
+  background-color: $background-color; // Dark background
+  color: $text-color; // Light text color for readability
+}
+
+a {
+  color: $primary-color; // Green links
+  text-decoration: none;
+
+  &:hover {
+    color: $highlight-color; // Green on hover
+  }
 }

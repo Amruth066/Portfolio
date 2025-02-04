@@ -1,6 +1,6 @@
 # Amruth Sai Manchukonda - Portfolio  
 
-Welcome to my personal portfolio! 🚀 This project showcases my experience, skills, and projects as a **Full-Stack Developer** with expertise in **React.js, Spring Boot, Python FastAPI, and AWS**.  
+Welcome to my personal portfolio! 🚀 This project showcases my experience, skills, and projects as a **Full-Stack Developer** with expertise in **React.js, Python FastAPI, and AWS**.  
 
 ## 🌟 About Me  
 I am a **Software Engineer** passionate about building scalable and efficient web applications. Currently, I am working at **Invesco**, where I contribute to improving vendor management systems, optimizing database queries, and developing new features that enhance user engagement.  
@@ -28,9 +28,9 @@ I am a **Software Engineer** passionate about building scalable and efficient we
 - Deployed a scalable **ASP.NET Web API**, leading to a **20% increase in data retrieval speed**.  
 
 ## 🛠️ Technical Skills  
-- **Languages:** JavaScript (ES6), Python, C, Java  
+- **Languages:** JavaScript (ES6), Python, C, Python  
 - **Frontend:** React.js, AngularJS, Bootstrap  
-- **Backend:** FastAPI, Flask, ASP.NET, Node.js, Spring Boot  
+- **Backend:** FastAPI, Flask, ASP.NET, Node.js
 - **Database:** MySQL, PostgreSQL, Oracle DB  
 - **Tools & DevOps:** Docker, Git, Postman, SwaggerUI  
 - **Concepts:** API Development, Cloud Computing, Database Normalization, Agile Methodology  
