@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 import './index.scss';
-import LogoS from '../../assets/images/logo-s.png';
+// import LogoA from '../../assets/images/logo-s.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -8,7 +8,7 @@ const SideBar=()=>{
     return (
         <div className='nav-bar'>
             <Link className='logo' to={'/'}>
-                <img src={LogoS} alt='logo'/>
+                <img alt='logo'/>
                 {/* <img src={LogoSubtitle} className='sub-logo' alt='subtitle'/> */}
             </Link>   
             <nav>
@@ -25,12 +25,12 @@ const SideBar=()=>{
             </nav>
             <ul>
                 <li>
-                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/swayamprakash-busam-87a618216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
+                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/amruth-sai-5245a0203/'>
                         <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e'/>
                     </a>
                 </li>
                 <li>
-                    <a target='_blank' rel='noreferrer' href='https://github.com/sp2371'>
+                    <a target='_blank' rel='noreferrer' href='https://github.com/Amruth066'>
                         <FontAwesomeIcon icon={faGithub} color='#4d4d4e'/>
                     </a>
                 </li>
