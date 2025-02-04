@@ -32,22 +32,26 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
+
                     <p>
-                        I am a <strong>passionate Full Stack Developer</strong> with over <strong>1+ years of experience</strong> in building web applications that are efficient, scalable, and user-friendly.
+                        Hey there! 👋 I'm a <strong>Full Stack Developer</strong> who loves turning ideas into reality through clean, efficient, and scalable code.  
                     </p>
 
                     <p>
-                        My expertise lies in developing both frontend and backend solutions using <strong>React.js, JavaScript, Python, and MySQL</strong>. I have experience working with <strong>RESTful APIs, cloud deployments (AWS), and DevOps practices</strong> to streamline development workflows and ensure smooth deployments.
+                        With <strong>1+ years of experience</strong>, I’ve worked with <strong>React.js, JavaScript, Python, and MySQL</strong>, crafting seamless digital experiences. From frontend magic to backend logic, I enjoy bridging the gap between design and functionality.
                     </p>
 
                     <p>
-                        I love tackling <strong>complex problems, optimizing performance</strong>, and writing clean, maintainable code. My goal is to create <strong>seamless user experiences</strong> while following best industry practices in Agile environments.
+                        🚀 Passionate about building <strong>dynamic web applications</strong>, I thrive on solving challenges, optimizing performance, and writing maintainable code.  
                     </p>
 
                     <p>
-                        Apart from coding, I enjoy learning about <strong>new technologies</strong>, contributing to open-source projects, and continuously improving my skills to stay ahead in the tech world.
+                        💡 DevOps, cloud deployments (<strong>AWS</strong>), and RESTful APIs? Yep, I work with those too! I believe in automating workflows to create smooth and efficient development cycles.
                     </p>
 
+                    <p>
+                        Beyond coding, I’m always exploring <strong>new technologies</strong>, contributing to open-source projects, and pushing my skills to the next level. Let’s build something amazing together!  
+                    </p>
                 </div>
 
                 <div className="stage-cube-cont">

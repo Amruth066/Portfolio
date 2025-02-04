@@ -8,6 +8,15 @@
     right: 0;
     overflow: hidden;
 }
+.text-zone p {
+    transition: font-size 0.3s ease-in-out; // Smooth transition effect
+}
+
+.text-zone p:hover {
+    font-size: 1.2em; // Increase font size on hover
+    font-weight: bold; // Optional: Make it bold for emphasis
+}
+
 .cubespinner{
     animation: spincube;
     animation-timing-function: ease-in-out;
