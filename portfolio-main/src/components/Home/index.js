@@ -7,8 +7,8 @@ import Logo from './Logo';
 import Loader from 'react-loaders';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const nameArray = ['m', 'r', 'u', 't', 'h',' ', 's', 'a', 'i'];
-    const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r','.'];
+    const nameArray = ['m', 'r', 'u', 't', 'h',' ', 'S', 'a', 'i'];
+    const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r','.'];
     useEffect(()=>{
         setTimeout(()=>{
             setLetterClass('text-animate-hover');

@@ -1,0 +1,60 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    margin-left: 260px; /* Adjust this according to your sidebar width */
+    box-sizing: border-box;
+  }
+  
+  .skills {
+    width: calc(100% - 260px); /* Ensure the skills section spans the full width from the sidebar */
+    padding: 20px;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skills-section {
+    margin-bottom: 30px;
+  }
+  
+  .skills-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    transition: color 0.3s ease; /* Smooth transition for color */
+  }
+  
+  .skills-section h3:hover {
+    color: #28a745; /* Green color on hover */
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .skill-item {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .skill-item:hover {
+    background-color: #28a745; /* Green color on hover */
+    color: white; /* Text color turns white on hover */
+    transform: translateY(-5px); /* Lift effect */
+  }
+  
