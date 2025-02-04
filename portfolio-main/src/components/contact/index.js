@@ -73,9 +73,7 @@ const Contact = () => {
                 <div className="info-map">
                     <strong>Amruth Sai Manchukonda</strong>
                     <br />
-                    Hyderabad, India
-                    <br />
-                    Madhapur
+                    Madhapur,Hyderabad - 500081, India
                     <br />
                     <span>amruthsaimanchu@gmail.com</span>
                 </div>
