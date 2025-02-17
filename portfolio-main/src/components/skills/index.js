@@ -3,68 +3,34 @@ import './index.scss';
 
 const skills = {
   frontend: [
-    'React.js',
-    'HTML5',
-    'CSS3',
-    'JavaScript',
-    'Bootstrap',
-    'Sass',
-    'TypeScript'
+    'React.js', 'Angular', 'HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'TypeScript'
   ],
   backend: [
-    'Node.js',
-    'Python',
-    'Java Spring Boot',
-    'FastAPI',
-    'Express.js',
-    'MySQL',
-    'PostgreSQL'
+    'Python', '.NET Web APIs', 'Java Spring Boot', 'FastAPI', 'MySQL', 'PostgreSQL'
   ],
   devOps: [
-    'AWS',
-    'Docker',
-    'Git',
-    'CI/CD',
-    'Kubernetes'
+    'AWS', 'Docker', 'Git', 'CI/CD', 'Kubernetes', 'Helm Charts'
   ]
 };
 
 const Skills = () => {
   return (
     <div className="skills-container">
-      <div className="skills">
-        <h2>My Skills</h2>
-        <div className="skills-section">
-          <h3>Frontend Skills</h3>
-          <div className="skills-list">
-            {skills.frontend.map((skill, index) => (
-              <div key={index} className="skill-item">
-                <span>{skill}</span>
+      <h2 className="skills-title">My Skills</h2>
+      <div className="skills-content">
+        <div className="skills-scroll">
+          {Object.entries(skills).map(([category, skillList]) => (
+            <div key={category} id={category} className="skills-section">
+              <h3>{category.charAt(0).toUpperCase() + category.slice(1)} Skills</h3>
+              <div className="skills-list">
+                {skillList.map((skill) => (
+                  <div key={skill} className="skill-item">
+                    <span>{skill}</span>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="skills-section">
-          <h3>Backend Skills</h3>
-          <div className="skills-list">
-            {skills.backend.map((skill, index) => (
-              <div key={index} className="skill-item">
-                <span>{skill}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="skills-section">
-          <h3>DevOps Skills</h3>
-          <div className="skills-list">
-            {skills.devOps.map((skill, index) => (
-              <div key={index} className="skill-item">
-                <span>{skill}</span>
-              </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
