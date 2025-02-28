@@ -1,5 +1,5 @@
 import React from 'react';
-import resumePDF from '../../assets/resume.pdf'; 
+import resumePDF from '../../assets/Amruth_Sai_Resume.pdf'; 
 import './index.scss';
 
 const Resume = () => {

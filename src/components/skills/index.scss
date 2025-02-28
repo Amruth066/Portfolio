@@ -1,60 +1,62 @@
 /* Container styling */
 .skills-container {
-  margin: 20px;
   text-align: center;
+  padding: 20px;
 }
 
 /* Title styling */
 .skills-title {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #fff;
 }
 
-/* Skills content wrapper */
+/* Skills content layout */
 .skills-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 20px;
 }
 
-/* Skills sections layout */
-.skills-scroll {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
+/* Individual skill category section */
 .skills-section {
   background-color: #28a745;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   width: 90%;
-  max-width: 600px;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Section title */
 .skills-section h3 {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 10px;
 }
 
-/* Skills list styling */
+/* Skills list */
 .skills-list {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 10px;
 }
 
-/* Skill item box */
+/* Individual skill item */
 .skill-item {
-  background-color: #f1f1f1;
-  padding: 12px 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 1rem;
   font-weight: 600;
-  cursor: pointer; /* Ensures it's interactive */
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
+
